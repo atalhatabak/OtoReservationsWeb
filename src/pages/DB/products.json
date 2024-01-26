@@ -1,0 +1,74 @@
+[
+    {
+      "id": "1",
+      "marka": "Samsung",
+      "model": "Galaxy S21",
+      "fiyat": "7.999 TL",
+      "aciklama": "Yüksek performanslı akıllı telefon"
+    },
+    {
+      "id": "2",
+      "marka": "Apple",
+      "model": "iPhone 12",
+      "fiyat": "9.999 TL",
+      "aciklama": "Gelişmiş kamera özellikleriyle donatılmış"
+    },
+    {
+      "id": "3",
+      "marka": "Huawei",
+      "model": "P40 Pro",
+      "fiyat": "6.499 TL",
+      "aciklama": "Görüntü kalitesinde üst düzey performans"
+    },
+    {
+      "id": "4",
+      "marka": "Xiaomi",
+      "model": "Mi 11",
+      "fiyat": "5.799 TL",
+      "aciklama": "Hızlı işlemci ve büyük ekran"
+    },
+    {
+      "id": "5",
+      "marka": "OnePlus",
+      "model": "9 Pro",
+      "fiyat": "6.999 TL",
+      "aciklama": "Akıcı kullanıcı deneyimi ve yüksek pil kapasitesi"
+    },
+    {
+      "id": "6",
+      "marka": "Google",
+      "model": "Pixel 5",
+      "fiyat": "4.499 TL",
+      "aciklama": "Süper hızlı fotoğraf çekimi ve yapay zeka entegrasyonu"
+    },
+    {
+      "id": "7",
+      "marka": "Sony",
+      "model": "Xperia 1 III",
+      "fiyat": "8.299 TL",
+      "aciklama": "Profesyonel düzeyde fotoğraf ve video performansı"
+    },
+    {
+      "id": "8",
+      "marka": "LG",
+      "model": "Velvet",
+      "fiyat": "3.999 TL",
+      "aciklama": "Şık tasarım ve yüksek ekran çözünürlüğü"
+    },
+    {
+      "id": "9",
+      "marka": "Motorola",
+      "model": "Edge+",
+      "fiyat": "5.299 TL",
+      "aciklama": "Hızlı şarj özelliği ve geniş depolama alanı"
+    },
+    {
+      "id": "10",
+      "marka": "Nokia",
+      "model": "9.3 PureView",
+      "fiyat": "4.799 TL",
+      "aciklama": "Gelişmiş güvenlik özellikleri ve güçlü pil ömrü"
+    }
+  ]
+   
+  

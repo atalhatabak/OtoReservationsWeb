@@ -1,0 +1,147 @@
+ :root {
+	 --darkmatter: black;
+	 --darkermatter: #2c3e50;
+	 --greenapple: #2ecc71;
+	 --greyapple: #ecf0f1;
+}
+ * {
+	 box-sizing: border-box;
+	 margin: 0;
+	 padding: 0;
+     
+}
+ body {
+    font-family: Hack, monospace;
+    align-items: center;
+    position: relative;
+}
+
+ a:hover {
+     text-decoration: none;
+	 color: var(--greenapple);
+}
+ .xen-nav {
+	 display: grid;
+     margin-top:0;
+	 grid-template-rows: minmax(min-content, 60px);
+}
+ .xen-nav .brand {
+	 cursor: pointer;
+	 justify-self: left;
+	 margin-left: 15px;
+     margin: 5px;
+    margin-left:20px;
+    font-size: 30px;
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: 600;
+    transition: all 1s ease-in-out;
+    position: relative;
+    text-decoration: none;
+    float:left;
+}
+.xen-nav .brand::before{
+    content: attr(data-item);
+    transition: all 1s ease-in-out;
+    color: #DA0037;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.xen-nav .brand:hover::before{
+    width: 100%;
+    text-decoration: none;
+}
+
+ .xen-nav .xen-content {
+	 align-content: space-evenly;
+	 display: grid;
+	 grid-auto-flow: column;
+	 place-items: center;
+     opacity:0.7;
+     color:black;
+     border-bottom: solid 2px black;
+}
+ .xen-nav .dropdown {
+	 background-color: var(--darkmatter);
+	 display: none;
+	 text-align: center;
+     opacity:0.7;
+}
+ .xen-nav .dropdown a {
+	 color: rgb(0, 0, 0);
+	 padding: 20px;
+}
+ .xen-nav .dropdown a:hover {
+	 color: var(--greyapple);
+	 background-color: var(--greenapple);
+}
+ .xen-nav .xen-links {
+	 display: grid;
+	 grid-auto-columns: minmax(min-content, 150px);
+	 grid-auto-flow: column;
+	 grid-gap: 15px;
+	 place-items: center;
+}
+ .xen-nav .xen-links .xen-nav-items {
+	 justify-self: right;
+	 padding-right: 15px;
+     
+
+}
+
+.xen-nav .xen-links  a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    transition: all 0.5s ease-in-out;
+    position: relative;
+    text-transform: uppercase;
+}
+.xen-nav .xen-links  a::before{
+    content: attr(data-item);
+    transition: 0.5s;
+    color: #520619;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 0;
+    overflow: hidden;
+}
+
+.xen-nav .xen-links  a:hover::before{
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+}
+
+
+
+ .xen-nav .menux {
+	 -webkit-user-select: none;
+	 cursor: pointer;
+	 display: none;
+	 justify-self: right;
+	 margin-right: 15px;
+	 user-select: none;
+}
+ .xen-nav .menux:hover {
+	 opacity: 0.5;
+}
+ @media only screen and (max-width: 768px) {
+	 .xen-nav .xen-content .xen-links {
+		 display: none;
+	}
+	 .xen-nav .xen-content .menux {
+		 display: initial;
+	}
+}
+ 
